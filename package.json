@@ -5,11 +5,17 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "rtsp": "node src/rtsp-server.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "jsmpeg-player": "^3.0.3",
+    "node-rtsp-stream": "^0.0.9",
+    "vue": "^2.6.14",
+    "vue-router": "3.x",
+    "vuetify": "^2.7.1",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
